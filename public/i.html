@@ -1,0 +1,17 @@
+<tr class="selected" id="fila'+cont +'">
+    <td>
+        <button type="button" class="btn btn-danger btn-sm" onclick="eliminar(' + cont +');">
+            <i class="fa fa-times"></i>
+        </button>
+    </td>
+    <td>
+        <input type="hidden" name="pelicula_id[]" value="'+ pelicula_id+'">'+pelicula+'</td>
+        <td>
+            <input type="hidden" id="price[]" name="price[]" value="'+price+'">
+            <input class="form-control"type="number" id="price[]" value="'+price+'" disabled>
+        </td>
+        <td align="right">$'+subtotal[cont]+'
+
+        </td>
+    </td>
+</tr>

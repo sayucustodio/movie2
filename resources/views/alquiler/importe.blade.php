@@ -1,0 +1,1 @@
+{{$peli->rental_rate}}
